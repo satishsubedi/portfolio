@@ -1,0 +1,172 @@
+:root {
+  --primary: #6900cd;
+  --lightPrimary: #6769a6;
+}
+
+* {
+  .lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+}
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none !important;
+}
+input,
+textarea {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.flex_container {
+  display: flex;
+}
+.justifier_navbar {
+  justify-content: space-between;
+}
+.divider {
+  height: 2px;
+  background: #e7e7e7;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  margin-top: 10px;
+}
+.logo_wrapper {
+  border: 1px dashed var(--primary);
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px;
+  letter-spacing: 5px;
+  color: white;
+  background-color: var(--lightPrimary);
+}
+.navbar {
+  background: #ccc;
+  padding: 20px;
+}
+.nav_item {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.profile_img {
+  background: blue;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: url("./../images/san.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.rounded_card {
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-left: 15px;
+  box-shadow: 1px 1px 4px 3px #e7e7e7;
+}
+.rounded_card:hover {
+  background-color: #e7e7e7;
+}
+
+.primary_button {
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px 5px #d6c3e6;
+  transition: all 0.2s;
+}
+.primary_button:hover {
+  padding: 18px;
+}
+.primary_banner {
+  background: var(--primary);
+  text-align: center;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact_picture {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  background: url(./../images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
